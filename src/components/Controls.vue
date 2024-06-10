@@ -12,7 +12,7 @@ const props = defineProps({
   }
 })
 
-const emit = defineEmits([ 'changeElementsOnPage', 'changeElementsInPagination' ])
+const emit = defineEmits([ 'changeElementsPerPage', 'changeElementsInPagination' ])
 
 const elementsPerPage = ref(props.elementsPerPage)
 const elementsInPagination = ref(props.elementsInPagination)
